@@ -12,7 +12,9 @@
         <div class="container">
             <div class="topbar-left">
                 <span><i class="fas fa-phone"></i> 087 245 0049/ 01 8137811</span>
+                <span class="divider">|</span>
                 <span><i class="fas fa-envelope"></i> contact@sample.ie</span>
+                <span class="divider">|</span>
                 <span><i class="fas fa-clock"></i> Mon-Thu: 8:00 am to 9:00 pm</span>
             </div>
             <div class="socials">
@@ -45,17 +47,27 @@
         <div class="container hero-container">
             <div class="hero-text">
                 <h1>Take The Right Step <br>For Your Business</h1>
-                <p>Tax Associate is a leading consultancy firm that provides simple, effective company registration, and accounting solutions to enterprises in Ireland.</p>
+                <p>TAx Associate is a leading consultancy firm that provides simple, effective company registration, and accounting solutions to enterprises in Ireland.</p>
                 <button class="btn">Get Started</button>
             </div>
             <div class="hero-form">
                 <form>
                     <h2>Apply For Tax Rebate Now</h2>
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email ID">
-                    <input type="text" placeholder="PPS Number">
-                    <label><input type="checkbox"> I have read & agreed to the authorisation and the <a href="#">terms & conditions</a>.</label>
-                    <button type="submit" class="btn dark">Apply</button>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email ID</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="pps">PPS Number</label>
+                    <input type="text" id="pps" name="pps">
+
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span>I have read & agreed to the authorisation and the <a href="#">terms & conditions</a>.</span>
+                    </label>
+                    <button type="submit" class="btn dark">Apply<i class="fas fa-arrow-right" 
+                        style="margin-left: 0.5rem;"></i></button>
                 </form>
             </div>
         </div>
@@ -63,8 +75,6 @@
 
     <section class="services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <p class="section-subtitle">We provide comprehensive business solutions</p>
             <div class="service-grid">
                 <div class="service">
                     <div class="icon-circle"><i class="fa-regular fa-file-lines"></i></div>
