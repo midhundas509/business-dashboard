@@ -321,7 +321,7 @@ body {
     background: #f0f9f9;
     padding: 2.5rem 2rem;
     border-radius: 1rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); */
     transition: var(--transition);
 }
 
